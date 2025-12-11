@@ -1,0 +1,14 @@
+.Rhistory
+.RData
+.Rproj.user/
+.DS_Store
+results/*
+data/*.jpg
+data/*.jpeg
+.Rhistory
+.RData
+.Rproj.user/
+.DS_Store
+results/*
+data/*.jpg
+data/*.jpeg
