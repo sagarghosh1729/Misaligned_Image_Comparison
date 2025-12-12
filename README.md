@@ -21,10 +21,6 @@ The code is modularized:
 
 - Helper functions in `R/`
 - Main analysis in `code/Misaligned_Image_Comparison.Rmd`
-- Data in `data/`
-- Manuscript drafts in `paper/`
-- Figures and outputs can be saved locally (e.g., `results/`)
-
 
 ---
 
