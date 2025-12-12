@@ -1,49 +1,63 @@
-# Image Comparison in the Presence of various Geometric Misalignments  
-Code for the paper:  
-**“Image Comparison in the Presence of Various Geometric Misalignment”**  
-Authors: Anik Roy, Sagar Ghosh, Partha Sarathi Mukherjee  
+# Image Comparison under Geometric Misalignments
+
+This repository contains the full R implementation for the study:
+
+**“Image Comparison in the Presence of Various Geometric Misalignments”**  
+**Authors:** Anik Roy, Sagar Ghosh, Partha Sarathi Mukherjee
 
 ---
 
-##  Overview  
-This repository contains the full R implementation used in our study on robust 
-image comparison under geometric misalignment. It includes simulation experiments, 
-landmark-based shape comparisons, TRS-invariant metrics, JLC-based edge extraction, 
-and real tumor growth analysis.
+## Overview
 
-The code is modularized: helper functions reside in `R/`, the full pipeline is in 
-`code/misalignment-analysis.Rmd`, and output figures are stored in `results/`.
+This project provides tools and scripts for **robust image comparison** under various geometric misalignments. It includes:
+
+- Simulation experiments
+- Landmark-based shape comparisons
+- TRS-invariant metrics
+- JLC-based edge extraction
+- Real tumor growth analysis
+
+The code is modularized:
+
+- Helper functions in `R/`
+- Main analysis in `code/Misaligned_Image_Comparison.Rmd`
+- Data in `data/`
+- Manuscript drafts in `paper/`
+- Figures and outputs can be saved locally (e.g., `results/`)
 
 ---
 
 ## Repository Structure
 
-|--code/
-|   |-Misaligned_Image_Comparison.Rmd # Main R Markdown
-|--R/
-|   |-Centering_Matrix.R
-|   |-Frobenius_Norm.R
-|   |-JLC_Sample_Edge.R
-|   |-Landmark_Selection.R
-|   |-Plot_Landmark_Metrix.R
-|   |-TRS_Inv_Metric.R
-|--data/
-|   |-Ellipse
-|   |-Lake
-|   |-Tumor
-|--paper/
-|--LICENSE
-|--README.md
+project_root/
+├── code/
+│ └── Misaligned_Image_Comparison.Rmd # Main analysis pipeline
+├── R/
+│ ├── Centering_Matrix.R
+│ ├── Frobenius_Norm.R
+│ ├── JLC_Sample_Edge.R
+│ ├── Landmark_Selection.R
+│ ├── Plot_Landmark_Metrix.R
+│ └── TRS_Inv_Metric.R
+├── data/
+│ ├── Ellipse/
+│ ├── Lake/
+│ └── Tumor/
+├── paper/
+├── LICENSE
+└── README.md
 
 
---
+---
 
-##  Dependencies  
+## Dependencies
 
-Install R packages:
+Install the required R packages:
 
 ```r
 install.packages(c(
   "raster", "sp", "magick", "OpenImageR", "foreach",
   "doParallel", "twosamples", "magic", "pracma", "jpeg"
 ))
+
+
