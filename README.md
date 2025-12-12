@@ -25,19 +25,6 @@ The code is modularized:
 - Manuscript drafts in `paper/`
 - Figures and outputs can be saved locally (e.g., `results/`)
 
----
-
-## Repository Structure
-
-.Rhistory
-.RData
-.Rproj.user/
-.DS_Store
-results/*
-data/*.jpg
-data/*.jpeg
-
-
 
 ---
 
