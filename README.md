@@ -15,7 +15,7 @@ This project provides tools and scripts for **robust image comparison** under va
 - Landmark-based shape comparisons
 - TRS-invariant metrics
 - JLC-based edge extraction
-- Real tumor growth analysis
+- Location of Maximal Change Detection
 
 The code is modularized:
 
