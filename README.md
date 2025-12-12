@@ -29,14 +29,13 @@ The code is modularized:
 
 ## Repository Structure
 
-├── code/
-├── data/
-├── results/
-├── R/
-├── paper/
-├── README.md
-├── .gitignore
-└── LICENSE
+.Rhistory
+.RData
+.Rproj.user/
+.DS_Store
+results/*
+data/*.jpg
+data/*.jpeg
 
 
 
