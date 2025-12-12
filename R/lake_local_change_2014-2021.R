@@ -245,7 +245,7 @@ plot_landmarks <- function(P, L, center = attr(L, "center")) {
 setwd("~/Documents/Stat_Project_PSM")
 x <- readJPEG("Lake_Images/2014-3c.jpg")
 
-image_1=image_read("Documents/Stat_Project_PSM/Lake_Images/2014-3c.jpg")
+image_1=image_read(".../Lake_Images/2014-3c.jpg")   #Write the absolute path here
 
 im_1=image_resize(image_1,"256x256")
 
@@ -274,7 +274,7 @@ L1_mat <- as.matrix(L1)*(1/256)
 
 
 #The Distorted Image
-image_2=image_read("Documents/Stat_Project_PSM/Lake_Images/2021-4ac.jpg")
+image_2=image_read(".../Lake_Images/2021-4ac.jpg")  #Write the absolute path here
 
 im_2=image_resize(image_2,"256x256")
 
