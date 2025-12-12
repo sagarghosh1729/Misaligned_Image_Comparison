@@ -29,23 +29,15 @@ The code is modularized:
 
 ## Repository Structure
 
-project_root/
 ├── code/
-│ └── Misaligned_Image_Comparison.Rmd # Main analysis pipeline
-├── R/
-│ ├── Centering_Matrix.R
-│ ├── Frobenius_Norm.R
-│ ├── JLC_Sample_Edge.R
-│ ├── Landmark_Selection.R
-│ ├── Plot_Landmark_Metrix.R
-│ └── TRS_Inv_Metric.R
 ├── data/
-│ ├── Ellipse/
-│ ├── Lake/
-│ └── Tumor/
+├── results/
+├── R/
 ├── paper/
-├── LICENSE
-└── README.md
+├── README.md
+├── .gitignore
+└── LICENSE
+
 
 
 ---
