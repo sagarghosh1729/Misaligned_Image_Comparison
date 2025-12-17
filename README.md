@@ -20,7 +20,7 @@ This project provides tools and scripts for **robust image comparison** under va
 The code is modularized:
 
 - Helper functions in `R/`
-- Main analysis in `code/Misaligned_Image_Comparison.Rmd`
+- Main analysis in `Misaligned_Image_Comparison.Rmd`
 
 ---
 
