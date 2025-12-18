@@ -1,4 +1,4 @@
-# Image Comparison under Geometric Misalignments
+# A Landmark-based Framework for Image Comparison in the Presence of Various Geometric Misalignments
 
 This repository contains the full R implementation for the study:
 
