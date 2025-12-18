@@ -2,14 +2,14 @@
 
 This repository contains the full R implementation for the study:
 
-**“Image Comparison in the Presence of Various Geometric Misalignments”**  
+**A Landmark-based Framework for Image Comparison in the Presence of Various Geometric Misalignments**  
 **Authors:** Anik Roy, Sagar Ghosh, Partha Sarathi Mukherjee
 
 ---
 
 ## Overview
 
-This project provides tools and scripts for **robust image comparison** under various geometric misalignments. It includes:
+This project provides tools and scripts for **A Landmark-based Framework for robust image comparison** under various geometric misalignments. It includes:
 
 - Simulation experiments
 - Landmark-based shape comparisons
