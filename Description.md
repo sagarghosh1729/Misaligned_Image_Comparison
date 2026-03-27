@@ -11,7 +11,12 @@ This repository contains the full R implementation for the study:
 
 This project provides tools and scripts for **A Landmark-based Framework for robust image comparison** under various geometric misalignments. It includes:
 
-- Simulation experiments
+- Simulation experiments : The Simulations folder contains three simulated experiments on power computations: One use cases each from Amoeba, Ellipse and Polygon. This folder also contains one use case of the local change detection simulation on two lake images. 
+  
+- R: This Folder contains all the functions and an end-to-end function named as "Power_Computation.R" which intakes two image paths and produces the power output considering the first image as null. This folder also contains the file "local_change_detection_fucntion.R" which has an end-to-end function taking two image paths as input and producing the location on the second image where the maximal change is observed relative to the first image
+  
+- Datasets: This folder contains all the lake images hich were used to detect the position of the maximal local change. 
+  
 - Landmark-based shape comparisons
 - TRS-invariant metrics
 - JLC-based edge extraction
