@@ -72,7 +72,7 @@ Hardware Overview:
 
 R Studio Overview:
 
-      RStudio 2026.01.1+403 "Apple Blossom" Release (0e924abb984501b0d66b204ea06b60fc7813275a, 2026-02-04) for         macOS
+      RStudio 2026.01.1+403 "Apple Blossom" Release (0e924abb984501b0d66b204ea06b60fc7813275a, 2026-02-04) for  macOS
 
 
 
