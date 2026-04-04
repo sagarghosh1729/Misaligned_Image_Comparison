@@ -15,7 +15,7 @@ This project provides tools and scripts for **A Landmark-based Framework for rob
   
 - R: This Folder contains all the functions and an end-to-end function named as "Power_Computation.R" which intakes two image paths and produces the power output considering the first image as null. This folder also contains the file "local_change_detection_fucntion.R" which has an end-to-end function taking two image paths as input and producing the location on the second image where the maximal change is observed relative to the first image
   
-- Datasets: This folder contains all the lake images hich were used to detect the position of the maximal local change. 
+- Datasets: This folder contains all the **lake images** and a link to the **medical images** which were used to detect the position of the maximal local change. 
   
 - Landmark-based shape comparisons
 - TRS-invariant metrics
