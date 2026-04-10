@@ -29,7 +29,7 @@ the power of the test $g_{A,0}$ vs $g_{A,2}^{(H_1)}$}.
 
 
 library(EBImage)
-library(raster)
+#library(raster)
 library(sp)
 library(magick)
 library(OpenImageR)
