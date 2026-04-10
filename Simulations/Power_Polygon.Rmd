@@ -19,10 +19,10 @@ knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
 \textbf{Description: This code snippet intakes two Polygon images and outputs the power of the test described in Section $4.2$ of the manuscript, where the test treats the first image as null $(H_0)$ and the second image as alternate $(H_1)$. More precisely, this particular demonstration computes the power of the test $g_{P,0}$ vs $g_{P,2}^{(H_1)}$}. 
 
 ```{r, echo=TRUE, cache=TRUE, results='hide'}
-if (!requireNamespace("BiocManager", quietly = TRUE))
-  install.packages("BiocManager")
+#if (!requireNamespace("BiocManager", quietly = TRUE))
+#  install.packages("BiocManager")
 
-BiocManager::install("EBImage")
+#BiocManager::install("EBImage")
 
 
 library(EBImage)
