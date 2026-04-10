@@ -40,10 +40,10 @@ install.packages(c(
 ))
 
 ## Required Libraries
-if (!requireNamespace("BiocManager", quietly = TRUE))
-  install.packages("BiocManager")
+#if (!requireNamespace("BiocManager", quietly = TRUE))  
+#  install.packages("BiocManager")
 
-BiocManager::install("EBImage")
+#BiocManager::install("EBImage")
 
 
 library(EBImage)
