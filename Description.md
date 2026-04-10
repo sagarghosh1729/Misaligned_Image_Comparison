@@ -42,7 +42,7 @@ Install the required R packages:
 
 
 library(EBImage)
-library(raster)
+#library(raster)
 library(sp)
 library(magick)
 library(OpenImageR)
