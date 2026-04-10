@@ -17,10 +17,10 @@ knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
 ```
 
 ```{r, echo=TRUE, cache=TRUE, results='hide'}
-if (!requireNamespace("BiocManager", quietly = TRUE))
-  install.packages("BiocManager")
+#if (!requireNamespace("BiocManager", quietly = TRUE))
+#  install.packages("BiocManager")
 
-BiocManager::install("EBImage")
+#BiocManager::install("EBImage")
 
 
 library(EBImage)
