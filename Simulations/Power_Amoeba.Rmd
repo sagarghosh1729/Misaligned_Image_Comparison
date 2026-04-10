@@ -22,10 +22,10 @@ the second image as alternate ($H_1$). More precisely, this particular demonstra
 the power of the test $g_{A,0}$ vs $g_{A,2}^{(H_1)}$}. 
 
 ```{r, echo=TRUE, cache=TRUE, results='hide'}
-if (!requireNamespace("BiocManager", quietly = TRUE))
-  install.packages("BiocManager")
+#if (!requireNamespace("BiocManager", quietly = TRUE))
+#  install.packages("BiocManager")
 
-BiocManager::install("EBImage")
+#BiocManager::install("EBImage")
 
 
 library(EBImage)
