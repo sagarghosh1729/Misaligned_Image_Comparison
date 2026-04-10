@@ -34,11 +34,6 @@ The code is modularized:
 Install the required R packages:
 
 ```r
-install.packages(c(
-  "raster", "sp", "magick", "OpenImageR", "foreach",
-  "doParallel", "twosamples", "magic", "pracma", "jpeg"
-))
-
 ## Required Libraries
 #if (!requireNamespace("BiocManager", quietly = TRUE))  
 #  install.packages("BiocManager")
