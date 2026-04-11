@@ -1,12 +1,14 @@
 
-if (!requireNamespace("BiocManager", quietly = TRUE))
-  install.packages("BiocManager")
+#if (!requireNamespace("BiocManager", quietly = TRUE))
+#  install.packages("BiocManager")
 
-BiocManager::install("EBImage")
+#BiocManager::install("EBImage")
 
 
 library(EBImage)
-library(raster)
+#library(raster)
+library(ggplot2)
+library(reshape2)
 library(sp)
 library(magick)
 library(OpenImageR)
